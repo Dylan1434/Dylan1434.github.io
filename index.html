@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>the website for bros bro</title>
+    <script>
+
+    var clicks =0;
+    function myFunction() {
+      clicks++;
+      document.getElementById("changeMessage").interHTML="You played yourself"+clicks+"times";
+      console.log(clicks);
+    }
     <style>
       h1 {
         color: aqua;
