@@ -3,8 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>the website for bros bro</title>
-  
     <style>
+    <script>
+
+    var clicks = 0;
+    functions myFunctions() {
+      clicks++;
+      document.getElementById("changeMessage").interHTML = "Push for money"+clicks" times";
+      console.log(clicks);
+      
+
+    }
+
       h1 {
         color: aqua;
           font-family: "Helvetica";
